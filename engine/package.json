@@ -1,0 +1,17 @@
+{
+  "name": "fbim-engine",
+  "version": "0.1.0",
+  "description": "Calculation engine for the AFAC Fire Brigade Intervention Model (FBIM)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
